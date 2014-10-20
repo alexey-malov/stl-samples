@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "find_if", "find_if\find_if.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "find_if(boost)", "find_if(boost)\find_if(boost).vcxproj", "{1B08C127-032A-40AD-B694-33F5C2EB46EA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "any_of", "any_of\any_of.vcxproj", "{579A9DC4-B120-4EEF-9520-9EB64B498985}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "any_of(boost)", "any_of(boost)\any_of(boost).vcxproj", "{D0B15A28-38F8-4AFD-89E4-E0D7E8D0C582}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +25,14 @@ Global
 		{1B08C127-032A-40AD-B694-33F5C2EB46EA}.Debug|Win32.Build.0 = Debug|Win32
 		{1B08C127-032A-40AD-B694-33F5C2EB46EA}.Release|Win32.ActiveCfg = Release|Win32
 		{1B08C127-032A-40AD-B694-33F5C2EB46EA}.Release|Win32.Build.0 = Release|Win32
+		{579A9DC4-B120-4EEF-9520-9EB64B498985}.Debug|Win32.ActiveCfg = Debug|Win32
+		{579A9DC4-B120-4EEF-9520-9EB64B498985}.Debug|Win32.Build.0 = Debug|Win32
+		{579A9DC4-B120-4EEF-9520-9EB64B498985}.Release|Win32.ActiveCfg = Release|Win32
+		{579A9DC4-B120-4EEF-9520-9EB64B498985}.Release|Win32.Build.0 = Release|Win32
+		{D0B15A28-38F8-4AFD-89E4-E0D7E8D0C582}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0B15A28-38F8-4AFD-89E4-E0D7E8D0C582}.Debug|Win32.Build.0 = Debug|Win32
+		{D0B15A28-38F8-4AFD-89E4-E0D7E8D0C582}.Release|Win32.ActiveCfg = Release|Win32
+		{D0B15A28-38F8-4AFD-89E4-E0D7E8D0C582}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
