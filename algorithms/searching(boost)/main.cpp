@@ -17,7 +17,7 @@ void TestKnuthMorrisPratt(const string & text, const string & pattern)
 	auto searchForPattern = make_knuth_morris_pratt(pattern);
 
 	auto pos = text.cbegin();
-	while ((pos = searchForPattern(pos, text.cend())) != text.end())
+	while ((pos = searchForPattern(pos, text.cend())) != text.cend())
 	{
 		cout << "The pattern '" << pattern << "' has been found at position " << (pos - text.cbegin()) << endl;
 		pos += pattern.length();
@@ -34,7 +34,7 @@ void TestBoyerMoore(const string & text, const string & pattern)
 	auto searchForPattern = make_boyer_moore(pattern);
 
 	auto pos = text.cbegin();
-	while ((pos = searchForPattern(pos, text.cend())) != text.end())
+	while ((pos = searchForPattern(pos, text.cend())) != text.cend())
 	{
 		cout << "The pattern '" << pattern << "' has been found at position " << (pos - text.cbegin()) << endl;
 		pos += pattern.length();
@@ -51,7 +51,7 @@ void TestBoyerMooreHorspool(const string & text, const string & pattern)
 	auto searchForPattern = make_boyer_moore_horspool(pattern);
 
 	auto pos = text.cbegin();
-	while ((pos = searchForPattern(pos, text.cend())) != text.end())
+	while ((pos = searchForPattern(pos, text.cend())) != text.cend())
 	{
 		cout << "The pattern '" << pattern << "' has been found at position " << (pos - text.cbegin()) << endl;
 		pos += pattern.length();
