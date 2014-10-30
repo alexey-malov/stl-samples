@@ -30,7 +30,7 @@ void SearchingForRabbit()
 	}
 	else
 	{
-		cout << "There is no any rabbits" << endl;
+		cout << "There are no any rabbits" << endl;
 	}
 }
 

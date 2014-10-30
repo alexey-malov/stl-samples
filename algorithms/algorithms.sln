@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "find", "find\find.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "find(boost)", "find(boost)\find(boost).vcxproj", "{6097997C-4DCE-4FB8-B131-A5342F70D9BD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "searching(boost)", "searching(boost)\searching(boost).vcxproj", "{C05EF837-AD19-476F-9137-3E5CF4E68430}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -57,6 +59,10 @@ Global
 		{6097997C-4DCE-4FB8-B131-A5342F70D9BD}.Debug|Win32.Build.0 = Debug|Win32
 		{6097997C-4DCE-4FB8-B131-A5342F70D9BD}.Release|Win32.ActiveCfg = Release|Win32
 		{6097997C-4DCE-4FB8-B131-A5342F70D9BD}.Release|Win32.Build.0 = Release|Win32
+		{C05EF837-AD19-476F-9137-3E5CF4E68430}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C05EF837-AD19-476F-9137-3E5CF4E68430}.Debug|Win32.Build.0 = Debug|Win32
+		{C05EF837-AD19-476F-9137-3E5CF4E68430}.Release|Win32.ActiveCfg = Release|Win32
+		{C05EF837-AD19-476F-9137-3E5CF4E68430}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
