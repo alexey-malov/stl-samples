@@ -192,7 +192,7 @@ struct Document
 		// Помещаем ее во множество глав документа
 		auto result = m_chapters.insert(move(chapter)); // Может выбросить исключение, но не страшно
 
-		// Оборачиваем указатель указатель в shared_ptr
+		// Оборачиваем указатель в shared_ptr
 		return shared_ptr<Chapter>(strongThis, result.first->get()); // не выбрасывает исключений
 	}
 
