@@ -8,9 +8,6 @@
 #include <iostream>
 #include <functional>
 
-#include <vld.h>
-
-
 using namespace std;
 
 struct Document;
