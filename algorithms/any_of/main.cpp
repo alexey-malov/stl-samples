@@ -39,9 +39,9 @@ void TestWhetherThereIsAtLeastOneAdult()
 			{ "Egor", 13 } 
 	};
 
-	if (any_of(begin(people), end(people), [](Person const& person){
-		return person.age >= 18;
-	}))
+	auto IsAnAdult = [](Person const& person) { return person.age >= 18; };
+
+	if (any_of(begin(people), end(people), IsAnAdult))
 	{
 		cout << "At least one person is an adult" << endl;
 	}
